@@ -1,0 +1,33 @@
+body{
+    background-color:aliceblue;
+    align-content: center;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    margin: 0;
+}
+
+#top{
+    height: 300px ;
+    background-color:antiquewhite;
+    padding:75px;
+}
+
+#enter, #media, #terms{
+    margin: 5%;
+}
+
+.button {
+  color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul.demo {
+  list-style-type: none;
+  padding: 0;
+}
