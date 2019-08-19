@@ -43,27 +43,31 @@ body{
 
 #bottom{
     text-align: center;
+    margin: 0 10%;
 }
 
 #textlink{
-    padding: 10px;
-    
-}
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+ }
 
-#adipic{
-    max-width: 95%;
-    max-height: 200px;
+#itemimage{
+    max-width: 99%;
+    
 }
 #box{
-    background-color: floralwhite;
+    background-color: black;
     display:inline-block;
-    min-width: 20%;
+    width: 22%;
+    height: 325px;
     line-height: 1.3;
-    padding-top: 50px;
-    margin: 1%;
+    margin: .5%;
     border: 1px solid #ccc;
     border-radius: 4px;
-    
+    position: relative
 }
 
 #contactus{
@@ -148,5 +152,21 @@ input:focus {
     width: 90%;
     margin-top: 0;
   }
+}
+
+@media screen and (max-width: 785px){
+
+    #bottom{
+        margin: 0;
+    }
+
+#box{
+    width:45%;
+    height: 375px;
+}
+#itemimage{
+    max-width: 99%;
+}
+    
 }
 
