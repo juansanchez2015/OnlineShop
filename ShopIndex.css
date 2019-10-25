@@ -59,7 +59,7 @@ body{
     
 }
 #box{
-    background-color: black;
+    /* background-color: black; */
     display:inline-block;
     width: 22%;
     height: 325px;
